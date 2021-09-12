@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Glory&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+}
+li{list-style-type: none;}
+a{text-decoration: none;}
+@media (max-width: 600px) {
+  
+}
+html{
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
