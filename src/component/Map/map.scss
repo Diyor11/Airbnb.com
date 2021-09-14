@@ -1,0 +1,33 @@
+#location{
+    margin-top: 40px;
+    .l-container{
+        width: 90%;
+        margin: 0 auto;
+        justify-content: space-between;
+        h1{
+            font-family: 'Noto Sans', sans-serif;
+            font-size: 35px;
+        }
+        .information{
+            h3{
+                padding: 13px 0pc;
+                font-family: sans-serif;
+            }
+            .p{
+                color: #444;
+            }
+        }
+        .map{
+            display: flex;
+            justify-content: center;
+        }
+    }
+}
+@media(max-width: 600px){
+    .l-container{
+        justify-content: initial;
+        .map{
+            justify-content: initial;
+        }
+    }
+}
